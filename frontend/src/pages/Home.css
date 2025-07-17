@@ -1,0 +1,57 @@
+/* Home.css */
+.Home-bg {
+  background: linear-gradient(to right, #0f0f0f, #1a1a1a);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+}
+
+.Home-overlay {
+  background: rgba(0, 0, 0, 0.8);
+  padding: 40px;
+  border-radius: 16px;
+  box-shadow: 0 0 20px cyan;
+  text-align: center;
+}
+
+.logo-img {
+  width: 120px;
+  margin-bottom: 20px;
+}
+
+.btn-music {
+  background-color: #00ffff;
+  border: none;
+  padding: 8px 16px;
+  margin-bottom: 20px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.Home-title {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.Home-subtitle {
+  margin-bottom: 20px;
+  font-size: 16px;
+}
+
+.btn-gamer {
+  background: linear-gradient(to right, #00c6ff, #0072ff);
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  margin: 5px;
+  border-radius: 8px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.btn-gamer:hover {
+  background: linear-gradient(to right, #0072ff, #00c6ff);
+}
